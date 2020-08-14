@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.navbar{
+    font-size: 20px;
+}
+.moving-div{
+    width: 50px;
+    height: 80px;
+    position: fixed;
+    top: 50vh;
+    right: 0px;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(drew-coffman-1872.jpg);
+    background-size: 100% 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    line-height: 1.86em;
+}
+.text h1{
+    font-size: 34px;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+.btn-one{
+    padding: 10px;
+    background-color: #8e7754;
+    color: white;
+}
+.btn-two{
+    padding: 10px;
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+}
+.btn-one:hover{
+    background-color: white;
+    color: black;
+}
+/* End BACKGROUND */
+
+/* start ABOUT */
+
+.about{
+    width: 100%;
+    height: 600px;
+    line-height: 35px; 
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img{
+    width: 50%;
+    margin-top: 20px;
+    height: 100%;
+    text-align: center;
+}
+.about-img img{
+    width: 80%;
+}
+
+.about-text{
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+    color: #686868;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.about-text ul{
+    list-style: none;
+    padding: 0px;    
+}
+
+/* end ABOUT */
+
+/* start LOCATION */
+.location{
+    width: 100%;
+    height: 500px;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-text{
+    width: 50%;
+    
+    color: #686868;
+    padding-left: 30px;
+    line-height: 35px;
+    font-size: 18px;
+}
+.location-text h1{
+    color: black;
+}
+
+.location-img{
+    width: 50%;
+    margin-left: 20px;
+    
+}
+.location-img img{
+    width: 90%;
+ 
+}
+
+/* End LOCATION */
+
+/* start IMAGES */
+
+.container{
+    width: 100%;
+    height: 600px;
+    color: #686868;
+}
+.container h3,h2{
+    color: black;
+}
+.images-text{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.cont-images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.images{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+}
+
+.image-one{
+    width: 30%;
+}
+
+.image-two{
+    width: 30%;
+}
+
+.image-three{
+    width: 30%;
+}
+
+.image-one img{
+    width: 100%;
+}
+.image-two img{
+    width: 100%;
+}
+.image-three img{
+    width: 100%;
+}
+/* end IMAGES */
+
+/* start INFO */
+.info{
+    width: 100%;
+    height: 600px;
+    background-color: #f8f8f8;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #686868;
+    padding:30px;
+}
+.info-text{
+    width: 50%;
+    height: 500px;
+    line-height: 20px;
+    padding:30px;
+    font-size: 18px;
+}
+.info-text p{
+    line-height: 30px;
+}
+.info-text h1{
+    color: black;
+    font-size: 30px;
+}
+.info-text ul{
+    list-style: none;
+    padding: 0px;
+}
+.map{
+    width: 50%;
+    
+}
+/* end INFO */
+
+/* start footer */
+
+.container-two{
+    width: 100%;
+    height: 350px;
+    background-color: #403d38;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #969696;
+    line-height: 25px;
+    padding: 20px;
+}
+.container-two h3{
+    color: white;
+}
+.aboutUs{
+    width: 25%;
+    line-height: 35px;
+}
+
+.special{
+    width: 25%;
+    line-height: 40px;
+}
+.special ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.opening-hours{
+    width: 25%;
+    line-height: 40px;
+}
+.opening-hours ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.contact-details{
+    width: 25%;
+    line-height: 40px;
+    background-image: url(contact-details-map.png);
+}
+.contact-details ul{
+    list-style: none;
+    padding: 0px;
+}
+/* last sectoion */
+
+.foot{
+    width: 100%;
+    height: 300px;
+    background-color: #353330;
+    text-align: center;
+    margin-top: 15px;
+    color: #777;
+}
+.footer-img{
+    width: 100%;
+    height: 60%;
+    padding: 30px;
+}
+.footer-img img{
+    padding-top: 15px;
+    width: 35%;
+    height: 100%;
+}
+
