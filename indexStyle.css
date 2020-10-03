@@ -1,0 +1,114 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.navbar{
+    font-size: 1.25rem;
+}
+/* start header */
+.background{
+    width: 100%;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;   
+}
+.text{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.86em;
+}
+.text h1{
+    font-size: 3rem;
+}
+.btn-one{
+    background-color: #8e7754;
+    color: white;
+}
+.btn-two{
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+}
+.btn-one:hover{
+    background-color: white;
+    color: black;
+}
+
+/* start ABOUT */
+.about{
+    line-height: 2.25rem; 
+    font-size: 1.25rem;
+}
+.about-text ul{
+    list-style: none;
+    padding: 0px;    
+}
+
+/* start LOCATION */
+.location{
+    background-color: #f8f8f8;
+}
+.location-text{  
+    color: #686868;
+    line-height: 35px;
+    font-size: 1.25rem;
+}
+.location-text h1{
+    color: black;
+}
+
+/* start contact */
+
+.contact-text{
+    line-height: 2rem;
+    font-size: 18px;
+}
+.contact-text h1{
+    color: black;
+    font-size: 2rem;
+}
+.contact-text ul{
+    list-style: none;
+    padding: 0px;
+}
+
+/* start info */
+.theInfo{
+    line-height: 1.75rem;
+    background-color: #353330;
+}
+
+.special ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.opening-hours ul{
+    list-style: none;
+    padding: 0px;
+}
+/*  contact */
+.contact{
+    background: #f8f8f8;
+}
+.contact-details{
+    background-image: url(images/contact-details-map.png);
+    background-position: 100% 100%;
+}
+.contact-details ul{
+    list-style: none;
+    padding: 0px;
+}
+.contact-details i{
+    padding-right: 0.5rem;
+}
+
+/* last section */
+.foot{  
+    background-color: #353330;
+    color: #777;
+}
+.foot .fab:hover{
+    color: white;
+    cursor: pointer;
+}

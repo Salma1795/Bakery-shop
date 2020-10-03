@@ -1,0 +1,20 @@
+/*
+.navbar-logo{
+    width: 80px;
+}*/
+
+.cloud1{
+    width: 200px;
+    
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 8s;
+    position: relative;
+}
+
+@keyframes move{
+    0%{left: 0px;}
+    100%{left: 1000px;}
+}
+}

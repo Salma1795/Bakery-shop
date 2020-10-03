@@ -1,0 +1,65 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.background{
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-position: 100%;
+    background-size: 100%;  
+}
+
+/* About text  */
+.story{
+    line-height: 2rem;
+}
+.decoreDiv{
+    width: 6rem;
+    height: 3px;
+    background-color: black;
+}
+/* facilites*/
+.facilites{
+    background-color: #f8f8f8;
+}
+.counterDiv{
+    background-color: #8e7754;
+    font-size: 2rem;
+}
+
+/* start info */
+.theInfo{
+    line-height: 1.75rem;
+    background-color: #353330;
+}
+.special ul{
+    list-style: none;
+    padding: 0px;
+}
+.opening-hours ul{
+    list-style: none;
+    padding: 0px;
+}
+.contact-details{
+    background-image: url(images/contact-details-map.png);
+    background-position: 100% 100%;
+}
+.contact-details ul{
+    list-style: none;
+    padding: 0px;
+}
+.contact-details i{
+    padding-right: 0.5rem;
+}
+
+/* last section */
+.foot{  
+    background-color: #353330;
+    color: #777;
+}
+.foot .fab:hover{
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.background{
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100%;   
+}
+.contact-details{
+    line-height: 2.5rem;
+}
+.contact-details ul{
+    list-style: none;
+    padding: 0px;
+}
+.contact-details i{
+    padding-right: 0.5rem;
+}
+
+
+/* last section */
+.foot{  
+    background-color: #353330;
+    color: #777;
+}
+.foot .fab:hover{
+    color: white;
+    cursor: pointer;
+}
